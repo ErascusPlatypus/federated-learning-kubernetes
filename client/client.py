@@ -7,7 +7,7 @@ import pickle
 
 # Simulated metric stream (replace with real data collection from Prometheus or logs)
 def get_data():
-    for _ in range(1000):
+    for _ in range(1000):   
         x = np.random.normal(0, 1, 1)[0]
         yield {"metric": x}
 
