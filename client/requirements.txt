@@ -1,0 +1,4 @@
+flwr
+river
+numpy
+requests  # For Prometheus integration
